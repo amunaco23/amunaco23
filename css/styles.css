@@ -1,0 +1,161 @@
+/*
+  ANTHONY MUNACO
+  v1.0 | 2015
+  Colors:
+    Base Black: #333333;
+    Base Blue:  #00ADEF;
+    Dark Blue:  #0094CC;
+    Base Grey:  #CCCCCC;
+    Base White: #FFFFFF;
+  Typography:
+    Helvetica, Arial, sans-serif;
+  Legend:
+    1. Global Styles
+    2. Card
+*/
+
+
+/* =====================
+ 1. Global Styles
+====================== */
+html,
+body{
+  background-color: #C3C6C0;
+  font-family: roboto, sans-serif;
+  margin: 0 auto;
+  padding-top: 10px;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  font: 100%/1.618;
+  font-family: roboto, sans-serif;
+  font-weight: 800;
+  margin-bottom: 10px;
+  overflow: visible;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 { font-size: 36px; }
+h2 { font-size: 24px; }
+h3 { font-size: 21px; }
+h4 { font-size: 18px; }
+h5 { font-size: 14px; }
+h6 { font-size: 11px; }
+
+p{
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+a{
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+li{
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.button{
+  background-color: #01C75C;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  color: #FFFFFF;
+  display: block;
+  margin: 25px auto 0;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: roboto, sans-serif;
+}
+
+.button:hover{
+ opacity: 0.75
+}
+
+strong{
+  font-weight: bold;
+}
+
+/* =====================
+ 2. Card
+====================== */
+.card{
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  -o-box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  height: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 350px;
+  font-family: roboto, sans-serif;
+}
+
+.card-header{
+  background-image: url('../images/process-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80px;
+  overflow: hidden;
+  font-family: roboto, sans-serif;
+}
+
+.card-avatar{
+  border: 2px solid #FFFFFF;
+  border-radius: 30em;
+  height: 100px;
+  margin: -50px auto 0;
+  overflow: hidden;
+  width: 100px;
+}
+
+.card-avatar img{
+  height: 100%;
+  width: 100%;
+}
+
+.card-bio{
+  padding: 20px;
+}
+
+.card-name{
+  text-align: center;
+}
+
+.card-contact-information{
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.card-contact-information li{
+  display: inline;
+  font-size: 14px;
+}
+
+.card-section{
+  margin: 20px auto 30px;
+}
+
+.card-section.last{
+  margin-bottom: 0;
+}
+
+.card-section-tag{
+  color: #959595;
+  text-transform: uppercase;
+}
